@@ -1,128 +1,149 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-  }
+}
 
-  .item {
-      font-size: 20px;
-  }
+.item {
+    font-size: 20px;
+}
 
-  .row.column {
+.row.column {
     height: 620px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-  }
+}
 
-  .img1 {
+.img1 {
     position: absolute;
     width: 50%;
+    min-width: 10em;
     max-width: 50em;
-    height: 68%;
-    max-height: 65em;
+    height: auto;
     display: flex;
-  }
+}
 
-  .img2 {
+
+/* .img2 {
     position: absolute;
     top: 22em;
     left: 41em;
-  }
+  } */
 
-  .column {
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-  }
+}
 
-  
-  /* Style the header */
-  .row h1 {
+
+/* Style the header */
+
+.row h1 {
     padding: 80px;
     text-align: center;
     color: white;
     font-size: 64px;
-  }
-  
-  /* Increase the font size of the h1 element */
-  .row h2 {
+}
+
+
+/* Increase the font size of the h1 element */
+
+.row h2 {
     padding: 80px;
     text-align: center;
     color: white;
-  }
+}
 
-  .p1 {
-      height: 705px;
-      background-image: url('./assets/background.png');
-      background-repeat: no-repeat;
+.p1 {
+    height: 705px;
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-      background-size: cover;
-  }
-
-  .content {
+.content {
     z-index: 0;
     max-width: 80%;
     margin: auto;
     padding: 10px;
-  }
-  
-  /* Style the top navigation bar */
-  .navbar {
+}
+
+
+/* Style the top navigation bar */
+
+.navbar {
     overflow: hidden;
     background-color: #1BE1AF;
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
+}
+
+
+/* Style the navigation bar links */
+
+.navbar a {
     flex: middle;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-  }
-  
-  /* Right-aligned link */
-  .navbar a.right {
+}
+
+
+/* Right-aligned link */
+
+.navbar a.right {
     float: right;
-  }
-  
-  /* Change color on hover */
-  .navbar a:hover {
+}
+
+
+/* Change color on hover */
+
+.navbar a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  /* Column container */
-  .row {  
+}
+
+
+/* Column container */
+
+.row {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
+}
+
+
+/* Create two unequal columns that sits next to each other */
+
+
+/* Sidebar/left column */
+
+.side {
     flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
-  }
-  
-  /* Main column */
-  .main {   
+}
+
+
+/* Main column */
+
+.main {
     flex: 70%;
     background-color: white;
     padding: 20px;
-  }
-  
-  /* Fake image, just for this example */
-  .fakeimg {
+}
+
+
+/* Fake image, just for this example */
+
+.fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
-  }
+}
