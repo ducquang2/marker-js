@@ -14,8 +14,7 @@ body {
 
 .donate {
     background-color: #fff;
-    /* Green */
-    border: 1px solid #7c4dff;
+    border: none;
     border-radius: 20px;
     color: #7c4dff;
     padding: 12px 18px;
