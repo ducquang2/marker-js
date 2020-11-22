@@ -1,0 +1,25 @@
+.backgrounds-angled {
+    height: 483px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    z-index: -1;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    /* Vector */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Secondary Color */
+
+    background: #1BE1AF;
+}
