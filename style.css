@@ -28,13 +28,6 @@ body {
     display: flex;
 }
 
-
-/* .img2 {
-    position: absolute;
-    top: 22em;
-    left: 41em;
-  } */
-
 .column {
     display: flex;
     flex-direction: column;
