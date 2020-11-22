@@ -6,11 +6,6 @@
     border-radius: 0px;
     z-index: -1;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
     /* Vector */
 
     position: absolute;
