@@ -7,18 +7,52 @@
     margin: 0;
   }
 
+  .item {
+      font-size: 20px;
+  }
+
+  .row.column {
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .img1 {
+    height: 70%;
+    position: absolute;
+    top: 9em;
+    left: 10em;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 22em;
+    left: 41em;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 
   
   /* Style the header */
-  .header {
+  .row h1 {
     padding: 80px;
     text-align: center;
     color: white;
+    font-size: 64px;
   }
   
   /* Increase the font size of the h1 element */
-  .header h1 {
-    font-size: 40px;
+  .row h2 {
+    padding: 80px;
+    text-align: center;
+    color: white;
   }
 
   .p1 {
