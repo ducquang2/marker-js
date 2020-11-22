@@ -39,17 +39,19 @@ body {
 /* Style the header */
 
 .row h1 {
-    padding: 80px;
+    padding-top: 6.5vw;
+    padding-left: 12vw;
     text-align: center;
     color: white;
-    font-size: 64px;
+    font-size: 4.5vw;
 }
 
 
 /* Increase the font size of the h1 element */
 
 .row h2 {
-    padding: 80px;
+    padding-top: 6.5vw;
+    padding-left: 10vw;
     text-align: center;
     color: white;
 }
