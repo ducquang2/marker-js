@@ -7,24 +7,52 @@ body {
     margin: 0;
 }
 
+.logo-img {
+    position: relative;
+    width: 50%;
+    min-width: 6em;
+    max-width: 10em;
+    height: auto;
+    display: flex;
+}
+
 .button {
-    padding-top: 0.5vw;
+    padding-top: 1vw;
     /* filter: drop-shadow(0px 2px 4px rgba(55, 71, 79, 0.16)), drop-shadow(0px 4px 8px rgba(55, 71, 79, 0.08)); */
 }
 
-.donate {
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    color: #7c4dff;
-    padding: 12px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 2px 2px;
-    transition-duration: 0.3s;
-    cursor: pointer;
+@media all and (max-width: 700px) {
+    .donate {
+        background-color: #fff;
+        border: none;
+        border-radius: 20px;
+        color: #7c4dff;
+        padding: 12px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3vw;
+        margin: 2px 2px;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@media all and (min-width: 701px) {
+    .donate {
+        background-color: #fff;
+        border: none;
+        border-radius: 20px;
+        color: #7c4dff;
+        padding: 12px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 2px 2px;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
 }
 
 .donate:hover {
@@ -63,22 +91,39 @@ body {
 
 /* Style the header */
 
-.row h1 {
-    padding-top: 3vw;
-    padding-left: 12vw;
-    text-align: center;
-    color: white;
-    font-size: 4.5vw;
+@media all and (min-width: 701px) {
+    .row h1 {
+        padding-top: 3vw;
+        padding-left: 12vw;
+        text-align: center;
+        color: white;
+        font-size: 4.5vw;
+    }
+    /* Increase the font size of the h1 element */
+    .row h2 {
+        padding-top: 3.5vw;
+        padding-left: 10vw;
+        text-align: center;
+        color: white;
+    }
 }
 
-
-/* Increase the font size of the h1 element */
-
-.row h2 {
-    padding-top: 3.5vw;
-    padding-left: 10vw;
-    text-align: center;
-    color: white;
+@media all and (max-width: 700px) {
+    .row h1 {
+        padding-top: 3vw;
+        padding-left: 12.5vw;
+        text-align: center;
+        color: white;
+        font-size: 4.5vw;
+    }
+    /* Increase the font size of the h1 element */
+    .row h2 {
+        font-size: 4.0vw;
+        padding-top: 3.8vw;
+        padding-left: 10.8vw;
+        text-align: center;
+        color: white;
+    }
 }
 
 .p1 {
