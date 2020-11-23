@@ -5,16 +5,10 @@
     top: 0px;
     border-radius: 0px;
     z-index: -1;
-
-    /* Vector */
-
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-
-    /* Secondary Color */
-
     background: #1BE1AF;
 }

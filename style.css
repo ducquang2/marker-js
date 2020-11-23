@@ -127,8 +127,9 @@ body {
 }
 
 .p1 {
-    height: 705px;
+    height: 880px;
     background-image: url('./assets/background.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
