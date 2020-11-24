@@ -278,5 +278,9 @@ body {
 }
 
 .p3 {
+    height: 400px;
     background-image: url("./assets/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
