@@ -1,84 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>MakerJS Demo</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="background.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="background.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script src="./marker.js"></script>
+    <link rel="stylesheet" type="text/css" href="ColorPicker.css" />
 
+    <script type="text/javascript" src="rainbow-custom.min.js"></script>
 
-</head>
+    <script type="text/javascript" src="ColorPicker.js"></script>
+  </head>
 
-<body>
+  <body>
     <!-- <div class="backgrounds-angled"></div> -->
 
     <div class="p1">
-        <div class="content">
+      <div class="content">
+        <nav>
+          <ul class="menu">
+            <li class="logo">
+              <img src="./assets/logo-img.png" class="logo-img" />
+            </li>
+            <li class="item">
+              <a href="#"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="item">
+              <a href="#"><i class="fas fa-inbox"></i> About</a>
+            </li>
+            <li class="item">
+              <a href="#"><i class="fas fa-briefcase"></i> Work</a>
+            </li>
+            <li class="item">
+              <a href="#"><i class="far fa-envelope"></i> Contact</a>
+            </li>
+            <li class="toggle">
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </li>
+            <li class="button">
+              <button class="donate">
+                Donate <i class="fas fa-hand-holding-usd"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
 
-            <nav>
-                <ul class="menu">
-                    <li class="logo"><img src="./assets/logo-img.png" class="logo-img"></li>
-                    <li class="item"><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="item"><a href="#"><i class="fas fa-inbox"></i> About</a></li>
-                    <li class="item"><a href="#"><i class="fas fa-briefcase"></i> Work</a></li>
-                    <li class="item"><a href="#"><i class="far fa-envelope"></i> Contact</a>
-                    </li>
-                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-                    <li class="button"><button class="donate">Donate <i class="fas fa-hand-holding-usd"></i></button></li>
-                </ul>
-            </nav>
-
-            <div class='row'>
-                <div class='column'>
-                    <div class="hero-img">
-                        <img src="./assets/group-img.png" class="img1">
-                    </div>
-                </div>
-                <div class='column' style="align-items: flex-end;">
-                    <div class="container">
-                        <div class="row">
-                            <h1>MakerJs</h1>
-                        </div>
-                        <div class="row">
-                            <h2>Highlight text for Web platform, Reactjs, ...</h2>
-                        </div>
-                        <div class="row">
-                            <div class="git">
-                                <h3><i class="fab fa-github"></i> https://github.com</h3>
-                                <button class="star">Star <i class="far fa-star"></i></button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h4><i class="fas fa-money-bill"></i> Donate to give me some support !!!</h4>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="column">
+            <div class="hero-img">
+              <img src="./assets/group-img.png" class="img1" />
             </div>
-
+          </div>
+          <div class="column" style="align-items: flex-end">
+            <div class="container">
+              <div class="row">
+                <h1>MakerJs</h1>
+              </div>
+              <div class="row">
+                <h2>Highlight text for Web platform, Reactjs, ...</h2>
+              </div>
+              <div class="row">
+                <div class="git">
+                  <h3><i class="fab fa-github"></i> https://github.com</h3>
+                  <button class="star">Star <i class="far fa-star"></i></button>
+                </div>
+              </div>
+              <div class="row">
+                <h4>
+                  <i class="fas fa-money-bill"></i> Donate to give me some
+                  support !!!
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="p2">
-        <div class="content">
-            <h2>Choose your best plan</h2>
-            <h3>Keep in mind you can also recolor parent price card to increase impact</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed dolor nisl, in suscipit justo. Donec a enim et est porttitor semper at vitae augue. Proin at nulla at dui mattis mattis. Nam a volutpat ante. Aliquam consequat dui eu sem convallis
-                ullamcorper. </p> <br> <br>
-            <p>Nulla suscipit, massa vitae suscipit ornare, tellus est consequat nunc, quis blandit elit odio eu arcu. Nam a urna nec nisl varius sodales. Mauris iaculis tincidunt orci id commodo. </p> <br> <br>
-            <p>Aliquam non magna quis tortor malesuada aliquam eget ut lacus. Nam ut vestibulum est. Praesent volutpat tellus in eros dapibus elementum. Nam laoreet risus non nulla mollis ac luctus felis dapibus. Pellentesque mattis elementum augue non sollicitudin.
-                Nullam lobortis fermentum elit ac mollis.
-            </p>
-        </div>
+      <div class="side">
+        <button id="remove">Remove</button>
+        <div class="color-picker"></div>
+      </div>
+      <div id="sandbox" class="content">
+        <h2>Choose your best plan</h2>
+        <h3>
+          Keep in mind you can also recolor parent price card to increase impact
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
+          dolor nisl, in suscipit justo. Donec a enim et est porttitor semper at
+          vitae augue. Proin at nulla at dui mattis mattis. Nam a volutpat ante.
+          Aliquam consequat dui eu sem convallis ullamcorper.
+        </p>
+        <br />
+        <br />
+        <p>
+          Nulla suscipit, massa vitae suscipit ornare, tellus est consequat
+          nunc, quis blandit elit odio eu arcu. Nam a urna nec nisl varius
+          sodales. Mauris iaculis tincidunt orci id commodo.
+        </p>
+        <br />
+        <br />
+        <p>
+          Aliquam non magna quis tortor malesuada aliquam eget ut lacus. Nam ut
+          vestibulum est. Praesent volutpat tellus in eros dapibus elementum.
+          Nam laoreet risus non nulla mollis ac luctus felis dapibus.
+          Pellentesque mattis elementum augue non sollicitudin. Nullam lobortis
+          fermentum elit ac mollis.
+        </p>
+      </div>
     </div>
 
-    <div class="p3">
-
-    </div>
+    <div class="p3"></div>
     <script src="nav.js"></script>
-</body>
+    <script type="text/javascript">
+      (function () {
+        var removeBtn = document.getElementById("remove");
+        var sandbox = document.getElementById("sandbox");
+        var colors = new ColorPicker(document.querySelector(".color-picker"));
+        var hltr = new TextMarker(sandbox);
 
+        colors.onColorChange(function (color) {
+          hltr.setColor(color);
+        });
+
+        removeBtn.addEventListener("click", function () {
+          hltr.removeHighlights();
+        });
+      })();
+    </script>
+  </body>
 </html>
