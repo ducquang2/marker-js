@@ -16,9 +16,9 @@ body {
     display: flex;
 }
 
-.button {
+.donate {
     padding-top: 1vw;
-    /* filter: drop-shadow(0px 2px 4px rgba(55, 71, 79, 0.16)), drop-shadow(0px 4px 8px rgba(55, 71, 79, 0.08)); */
+    box-shadow: 0px 2px 4px rgba(55, 71, 79, 0.16);
 }
 
 @media all and (max-width: 700px) {
@@ -234,6 +234,10 @@ body {
     margin-left: 1em;
     transition-duration: 0.3s;
     cursor: pointer;
+}
+
+.star:hover {
+    box-shadow: 2px 2px 4px #7c4dff;
 }
 
 
