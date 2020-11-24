@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #858585;
     margin: 0;
 }
 
@@ -133,7 +134,7 @@ body {
 }
 
 .p1 {
-    height: 880px;
+    height: 770px;
     background-image: url('./assets/background.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -257,11 +258,17 @@ body {
     /* margin-left: 13.5em; */
 }
 
+.p2 {
+    font-size: 20pt;
+}
 
-/* Fake image, just for this example */
+.p2 h2 {
+    color: black;
+    font-size: 32pt;
+    margin-bottom: 25px;
+}
 
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
+.p2 h3 {
+    color: darkgray;
+    margin-bottom: 30px;
 }
