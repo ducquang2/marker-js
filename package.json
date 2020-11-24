@@ -1,0 +1,28 @@
+{
+  "name": "ducquang2.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nav.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducquang2/ducquang2.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducquang2/ducquang2.github.io/issues"
+  },
+  "homepage": "https://github.com/ducquang2/ducquang2.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/preset-react": "^7.12.7",
+    "cssnano": "^4.1.10",
+    "sass": "^1.29.0"
+  }
+}
