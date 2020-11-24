@@ -222,15 +222,16 @@ body {
 }
 
 .star {
-    background-color: #fff;
-    border: #7c4dff;
-    border-radius: 20px;
-    color: #7c4dff;
+    background-color: #7c4dff;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
     padding: 2px 8px;
     text-align: right;
     text-decoration: none;
     font-size: 1.2vw;
-    margin: 2px 2px;
+    margin-bottom: 9px;
+    margin-left: 1em;
     transition-duration: 0.3s;
     cursor: pointer;
 }
