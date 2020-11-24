@@ -259,6 +259,10 @@ body {
 }
 
 .p2 {
+    background-image: url("./assets/p2-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 20pt;
 }
 
@@ -271,4 +275,8 @@ body {
 .p2 h3 {
     color: darkgray;
     margin-bottom: 30px;
+}
+
+.p3 {
+    background-image: url("./assets/footer.png");
 }
