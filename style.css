@@ -293,7 +293,7 @@ body {
 /* Part 3 */
 
 .p3 {
-    height: 400px;
+    height: 600px;
     background-image: url("./assets/footer.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -301,10 +301,9 @@ body {
 }
 
 .p3 .row {
-    margin-top: 120px;
+    margin-top: 10em;
     z-index: 0;
-    max-height: 400px;
-    height: 80%;
+    max-height: 600px;
     /* margin: auto; */
     padding: 10px;
 }
