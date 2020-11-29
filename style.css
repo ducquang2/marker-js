@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
     color: #858585;
     margin: 0;
 }
@@ -214,19 +216,28 @@ body {
 
 .git {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+}
+
+.git form {
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border: none;
-    border-radius: 12px;
-    color: #7c4dff;
-    padding: 12px 18px;
-    text-align: left;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2vw;
-    margin-top: 5vw;
-    /* margin-left: 10vw; */
-    cursor: pointer;
     box-shadow: 0px 8px 24px rgba(55, 71, 79, 0.1);
+}
+
+.git h3 {
+    border: none;
+    color: #7c4dff;
+    font-size: 16px;
+    font-weight: normal;
+    /* width: 100%; */
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
 }
 
 .star {
@@ -234,11 +245,10 @@ body {
     border: none;
     border-radius: 7px;
     color: #fff;
-    padding: 2px 8px;
-    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px 30px;
     text-decoration: none;
-    font-size: 1.2vw;
-    margin-left: 1em;
     transition-duration: 0.3s;
     cursor: pointer;
 }
@@ -248,13 +258,15 @@ body {
 }
 
 .row h4 {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    align-items: center;
     color: #858585;
     text-align: left;
     text-decoration: none;
     font-size: 0.8vw;
-    margin-top: 3em;
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 24px;
     /* margin-left: 13.5em; */
 }
 
@@ -290,7 +302,12 @@ body {
 
 .contact-mail h3 {
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
     color: #5c5c5c;
 }
 
