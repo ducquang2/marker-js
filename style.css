@@ -10,6 +10,19 @@ body {
     margin: 0;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .logo-img {
     position: relative;
     width: 50%;
@@ -82,14 +95,6 @@ body {
     max-width: 50em; */
     height: auto;
     display: flex;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    width: 50%;
 }
 
 .container {
@@ -187,11 +192,6 @@ body {
 
 
 /* Column container */
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 /* Create two unequal columns that sits next to each other */
@@ -407,7 +407,7 @@ body {
     padding: 11px;
     border-radius: 50%;
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     justify-content: center;
 }
