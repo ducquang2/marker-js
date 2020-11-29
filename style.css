@@ -308,6 +308,17 @@ body {
     padding: 10px;
 }
 
+.follow-icon h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #5C5C5C;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
 .bottom-icon {
     margin-top: 1em;
     display: flex;
@@ -383,7 +394,7 @@ body {
 
 .circle {
     background: #fff;
-    padding: 12.5px;
+    padding: 11px;
     border-radius: 50%;
     display: flex;
     width: 50px;
