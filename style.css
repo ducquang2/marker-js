@@ -308,6 +308,22 @@ body {
     padding: 10px;
 }
 
+.bottom-icon {
+    margin-top: 1em;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.bottom-icon .fab {
+    color: #1BE1AF;
+    /* background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px; */
+    cursor: pointer;
+}
+
 .contact-mail h3 {
     font-weight: bold;
     font-size: 12px;
@@ -324,17 +340,7 @@ body {
     color: #7c4dff;
 }
 
-.bottom-icon .fab {
-    color: #1BE1AF;
-    background-color: #fff;
-    border: none;
-    border-radius: 7px;
-    padding: 2px 8px;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-
-.p3 input[type=text] {
+.contact-mail input[type=text] {
     border: none;
     font-size: 16pt;
     /* width: 100%; */
@@ -373,4 +379,14 @@ body {
 .email-box button:hover {
     background-color: #fff;
     color: #7c4dff;
+}
+
+.circle {
+    background: #fff;
+    padding: 12.5px;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
 }
