@@ -308,3 +308,19 @@ body {
     transition-duration: 0.3s;
     cursor: pointer;
 }
+
+.p3 input {
+    border: none;
+}
+
+.email-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 24px rgba(55, 71, 79, 0.1);
+}
