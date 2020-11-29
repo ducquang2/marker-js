@@ -353,20 +353,28 @@ body {
 
 .contact-mail input[type=text] {
     border: none;
-    font-size: 16pt;
     /* width: 100%; */
-    padding: 5px 10px;
-    margin: 5px 0;
-    display: inline-block;
+    height: 64px;
+    width: 400px;
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.25px;
 }
 
 .email-box {
     display: flex;
+    margin-top: 44px;
     flex-direction: column;
     align-items: baseline;
 }
 
 .email-box form {
+    margin-top: 16px;
     display: flex;
     background-color: #fff;
     border: none;
@@ -378,10 +386,11 @@ body {
 .email-box button {
     background-color: #7c4dff;
     border: none;
+    width: 169px;
+    height: 64px;
     border-radius: 5px;
     color: #fff;
     font-size: 13pt;
-    padding: 18px 10px;
     text-decoration: none;
     transition-duration: 0.3s;
     cursor: pointer;
