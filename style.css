@@ -298,3 +298,13 @@ body {
     padding: 0;
     color: #7c4dff;
 }
+
+.bottom-icon .fab {
+    color: #1BE1AF;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 2px 8px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
