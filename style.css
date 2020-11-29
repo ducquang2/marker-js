@@ -284,3 +284,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contact-mail h3 {
+    font-weight: bold;
+    font-size: 12pt;
+    color: #5c5c5c;
+}
+
+.contact-mail h2 {
+    padding: 0;
+    color: #7c4dff;
+}

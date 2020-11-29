@@ -110,31 +110,41 @@
 
     <div class="p3">
         <div class="content">
-            <div class="column">
-                <div class="follow-icon">
-                    <h3>FOLLOW US</h3>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-slack-hash"></i>
-                    <i class="fab fa-twitter"></i>
+            <div class="row">
+                <div class="column">
+                    <div class="follow-icon">
+                        <h3>FOLLOW US</h3>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-slack-hash"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="contact-mail">
+                        <h3>DROP US A LINE</h3>
+                        <h2>quangbilun@gmail.com</h2>
+                        <h3>KEEP IN TOUCH</h3>
+                        <div class="email-box"></div>
+                    </div>
                 </div>
             </div>
-            <div class="column"></div>
         </div>
     </div>
-    <script src="nav.js"></script>
-    <script type="text/javascript">
+
+    <script src="nav.js "></script>
+    <script type="text/javascript ">
         (function() {
-            var removeBtn = document.getElementById("remove");
-            var sandbox = document.getElementById("sandbox");
-            var colors = new ColorPicker(document.querySelector(".color-picker"));
+            var removeBtn = document.getElementById("remove ");
+            var sandbox = document.getElementById("sandbox ");
+            var colors = new ColorPicker(document.querySelector(".color-picker "));
             var hltr = new TextMarker(sandbox);
 
             colors.onColorChange(function(color) {
                 hltr.setColor(color);
             });
 
-            removeBtn.addEventListener("click", function() {
+            removeBtn.addEventListener("click ", function() {
                 hltr.removeHighlights();
             });
         })();
