@@ -309,18 +309,33 @@ body {
     cursor: pointer;
 }
 
-.p3 input {
+.p3 input[type=text] {
     border: none;
+    font-size: 18pt;
+    /* width: 100%; */
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
 }
 
-.email-box {
+.email-box form {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     background-color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 12px;
     text-decoration: none;
-    cursor: pointer;
     box-shadow: 0px 8px 24px rgba(55, 71, 79, 0.1);
+}
+
+.email-box button {
+    background-color: #7c4dff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    /* padding: 2px 8px; */
+    padding: 20px 10px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
