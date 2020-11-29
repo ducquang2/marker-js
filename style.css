@@ -300,6 +300,15 @@ body {
     background-size: cover;
 }
 
+.p3 .row {
+    margin-top: 120px;
+    z-index: 0;
+    max-height: 400px;
+    height: 80%;
+    /* margin: auto; */
+    padding: 10px;
+}
+
 .contact-mail h3 {
     font-weight: bold;
     font-size: 12px;
@@ -360,4 +369,9 @@ body {
     text-decoration: none;
     transition-duration: 0.3s;
     cursor: pointer;
+}
+
+.email-box button:hover {
+    background-color: #fff;
+    color: #7c4dff;
 }
