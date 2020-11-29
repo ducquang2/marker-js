@@ -428,6 +428,7 @@ body {
 }
 
 .email-box h4 {
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 171% */
