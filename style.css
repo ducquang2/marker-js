@@ -23,6 +23,18 @@ body {
     flex-wrap: wrap;
 }
 
+.container {
+    width: 60%;
+    align-items: center;
+}
+
+.content {
+    z-index: 0;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
 .logo-img {
     position: relative;
     width: 50%;
@@ -31,6 +43,9 @@ body {
     height: auto;
     display: flex;
 }
+
+
+/* Part 1 */
 
 .donate {
     padding-top: 1vw;
@@ -97,11 +112,6 @@ body {
     display: flex;
 }
 
-.container {
-    width: 60%;
-    align-items: center;
-}
-
 
 /* Style the header */
 
@@ -148,13 +158,6 @@ body {
     background-size: cover;
 }
 
-.content {
-    z-index: 0;
-    max-width: 80%;
-    margin: auto;
-    padding: 10px;
-}
-
 
 /* Style the top navigation bar */
 
@@ -189,12 +192,6 @@ body {
     background-color: #ddd;
     color: black;
 }
-
-
-/* Column container */
-
-
-/* Create two unequal columns that sits next to each other */
 
 
 /* Sidebar/left column */
@@ -269,6 +266,9 @@ body {
     line-height: 24px;
     /* margin-left: 13.5em; */
 }
+
+
+/* Part 2 */
 
 .p2 {
     background-image: url("./assets/p2-back.png");
