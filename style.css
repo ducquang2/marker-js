@@ -279,14 +279,38 @@ body {
 }
 
 .p2 h2 {
-    color: black;
-    font-size: 32pt;
-    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #333333;
 }
 
 .p2 h3 {
-    color: darkgray;
-    margin-bottom: 30px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.25px;
+    /* 48% Gray */
+    color: #858585;
+}
+
+.p2 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #858585;
 }
 
 
