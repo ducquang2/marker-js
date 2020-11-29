@@ -337,12 +337,12 @@ body {
 
 .email-box {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .email-box form {
     display: flex;
-    align-items: center;
     background-color: #fff;
     border: none;
     border-radius: 5px;
