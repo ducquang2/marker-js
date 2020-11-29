@@ -348,11 +348,15 @@ body {
 }
 
 .bottom-icon .fab {
-    color: #1BE1AF;
+    color: #fff;
     /* background-color: #fff;
-    border: none;
-    border-radius: 10px;
     padding: 10px 10px; */
+    /* border-style: solid;
+    border-color: #1BE1AF;
+    border: 1px;
+    border-radius: 10px; */
+    /* text-shadow: 0 2px 2px #1BE1AF; */
+    text-shadow: -2px 0 #1BE1AF, 0 1px #1BE1AF, 1px 0 #1BE1AF, 0 -1px #1BE1AF;
     cursor: pointer;
 }
 
@@ -444,7 +448,10 @@ body {
     padding: 11px;
     border-radius: 50%;
     display: flex;
-    width: 45px;
-    height: 45px;
+    width: 44px;
+    height: 44px;
     justify-content: center;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
 }
