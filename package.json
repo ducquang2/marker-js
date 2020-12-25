@@ -1,0 +1,37 @@
+{
+  "name": "ducquang2.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.26",
+    "postcss-load-config": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.8.10",
+    "tailwindcss-font-inter": "^1.0.8"
+  },
+  "keywords": [
+    "high-light",
+    "highlight",
+    "marker"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --port 3000",
+    "build": "rm -rf dist && parcel build src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducquang2/ducquang2.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducquang2/ducquang2.github.io/issues"
+  },
+  "homepage": "https://github.com/ducquang2/ducquang2.github.io#readme"
+}
