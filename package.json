@@ -1,5 +1,5 @@
 {
-  "name": "ducquang2.github.io",
+  "name": "marker-js",
   "version": "1.0.0",
   "description": "",
   "main": "./src/main.js",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ducquang2/ducquang2.github.io.git"
+    "url": "git+https://github.com/ducquang2/marker-js.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ducquang2/ducquang2.github.io/issues"
+    "url": "https://github.com/ducquang2/marker-js/issues"
   },
-  "homepage": "https://github.com/ducquang2/ducquang2.github.io#readme"
+  "homepage": "https://github.com/ducquang2/marker-js#readme"
 }
